@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,900|Work+Sans:300" rel="stylesheet">
+ <link rel="stylesheet" href="../css/contact_style.css">
+ <link rel="stylesheet" href="../css/style.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+ <title>Contact Us Page</title>
+</head>
+<body>
+
+<!--Nav bar section-->
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/lawsy-logo.png" alt="lawsy logo"></a>
+            <a class="navbar-brand" href="#"><img src="images/lawsy-logo-three.png" alt="lawsy text logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-burger"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contents">CONTENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#faqs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<div class="contact-container">
+  <div class="contact-inner-container">
+
+    <div class="contact-info-container">
+      <h1 class="contact-heading">Say Hello!</h1>
+      <p class="contact-description">
+        We're open for any suggestion or just to have a chat.
+      </p>
+      <div class="line"></div>
+
+      <div class="contact-details">
+        <h3><i class="fa fa-solid fa-map-pin"></i> Address</h3>
+        <p>University Institute of Technology, Golapbag (North), Burdwan- 713104</p>
+      </div>
+      <hr />
+
+      <div class="contact-details">
+        <h3><i class="fa fa-envelope"></i> Email</h3>
+        <p>contactus@mail.com</p>
+      </div>
+      <hr />
+
+      <div class="contact-details">
+        <h3><i class="fa fa-phone"></i> Lets Talk</h3>
+        <p>+91 9876543210</p>
+      </div>
+      <hr />
+
+      <div class="social-link-container">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form class="form" id="contactForm" action="">
+        <div class="alert">Your message sent</div>
+
+        <div class="form-group">
+          <input type="text" id="name" class="input-field form-input" placeholder="Name" >
+        </div>
+        <div class="form-group">
+          <input type="email" id="emailid" class="input-field form-input" placeholder="Email" >
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="5" class="input-field form-input" placeholder="Message"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="input-field submit-btn" value="Submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="../js/contact.js"></script>
+<script src="https://kit.fontawesome.com/b9d80412d1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
