@@ -131,7 +131,7 @@ body {
 }
 
 .title::before {
-  content: '';
+  content: "";
   background: rgb(20, 20, 248);
   height: 5px;
   width: 200px;
@@ -142,7 +142,7 @@ body {
 }
 
 .title::after {
-  content: '';
+  content: "";
   background: rgb(20, 20, 248);
   height: 10px;
   width: 50px;
@@ -203,7 +203,6 @@ body {
   height: 100%;
 }
 
-
 /* Testmonials */
 
 #faqs {
@@ -215,8 +214,6 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
-
 
 /* Social media */
 #social-media {
@@ -279,17 +276,12 @@ body {
   max-height: 250px;
 }
 
-.footer-box .btn-primary {
+.footer-box .btn-light {
   box-shadow: none;
   border: none;
   border-radius: 0;
   margin-top: 30px;
-  background: white;
-  color: linear-gradient(
-    to right,
-    rgb(95, 95, 254),
-    rgb(20, 20, 248)
-  );
+  border-radius: 5px;
 }
 
 hr {
