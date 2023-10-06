@@ -170,7 +170,7 @@ body {
 }
 /* About us */
 #about-us {
-  background: #f8f9fa;
+  background: 8f9fa#f;
   padding: 50px 0;
 }
 
@@ -205,6 +205,19 @@ body {
 
 
 /* Testmonials */
+
+.accordion {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-size: medium;
+}
+
+.accordion .accordion-button {
+  font-size: large;
+  padding: auto;
+}
 
 #faqs {
   margin: 100px 0;

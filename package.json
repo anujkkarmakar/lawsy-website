@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^10.0.1",
+    "vite": "^4.4.11"
+  },
+  "name": "sih-website-demo",
+  "description": "Lawsy: Lawful Fun in Every Run: Smart India Hackathon 2023",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
+}
