@@ -11,6 +11,8 @@
     "@tailwindcss/forms": "^0.5.6",
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^10.0.1",
+    "firebase": "^10.4.0",
+    "firebaseui": "^6.1.0",
     "vite": "^4.4.11"
   },
   "name": "sih-website-demo",
