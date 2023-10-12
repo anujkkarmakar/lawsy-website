@@ -1,7 +1,7 @@
 # Lawsy: Lawful Fun in Every Run
 ## Smart India Hackathon 2023
 ### Disclaimer
-> This project is developed as part of a solution to Smart India Hackathon, a nationwide initiative to provide students with a platform to solve some of the pressing problems faced by our country. The project is intended for educational and demonstration purposes only and does not represent any official endorsement or guarantee from the organizers, sponsors, or partners of the hackathon. The project is open source and licensed under the MIT License. The developers of this project are not liable for any damages or losses arising from the use or misuse of this project. Use this project at your own risk.
+> This project is developed as part of a solution to Smart India Hackathon, a nationwide initiative to provide students with a platform to solve some of the pressing problems faced by our country. The project is intended for educational and demonstration purposes only and does not represent any official endorsement or guarantee from the organizers, sponsors, or partners of the hackathon. The project is open source and licensed under the GPL-3.0. The developers of this project are not liable for any damages or losses arising from the use or misuse of this project. Use this project at your own risk.
 
 ### Teaser
 https://github.com/anujkkarmakar/lawsy-website/assets/80219364/bbee9a3f-b5a3-41c7-a268-e19aaadccdb8
