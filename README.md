@@ -34,6 +34,9 @@ With the advancement of technology at a breathtaking speed, India desperately ne
 
 * Congratulations! The website is successfully running.
 
+### Use Case Diagram
+![USE CASE DIAGRAM SIH 2023](https://github.com/anujkkarmakar/lawsy-website/assets/80219364/490ee6cc-cc64-49d9-bbae-76f05037c84a)
+
 ### Architecture of the website
 
 ##### How data is send to the server:
