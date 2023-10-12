@@ -24,17 +24,17 @@ With the advancement of technology at a breathtaking speed, India desperately ne
 </li>
 </ul>
 
-### Steps to run the project <br>
+### Steps to run the project
 
-* You must have npm installed on your system. If you donot have npm installed, you can install from [here](https://nodejs.org/en/download).
+* You must have npm installed on your system. If you don't have npm installed, you can install it from [here](https://nodejs.org/en/download).
 
-* The firebase_config credentials and AWS API Gateway credentials are ignored by Git to maintain confidentaility.
+* The firebase_config credentials and AWS API Gateway credentials are ignored by Git to maintain confidentiality.
 
 * On terminal, execute `npm run start` and it will open the website at  `http://localhost:port/`
 
 * Congratulations! The website is successfully running.
 
-### Architecture of the website <br>
+### Architecture of the website
 
 ##### How data is send to the server:
 Website ----> API Gateway ---> AWS Lambda --> AWS RDS
