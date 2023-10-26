@@ -31,8 +31,6 @@ With the advancement of technology at a breathtaking speed, India desperately ne
 </li>
 </ul>
 
-<<<<<<< HEAD
-=======
 ### Steps to run the project
 
 * You must have npm installed on your system. If you don't have npm installed, you can install it from [here](https://nodejs.org/en/download).
@@ -46,7 +44,6 @@ With the advancement of technology at a breathtaking speed, India desperately ne
 ### Use Case Diagram
 ![USE CASE DIAGRAM SIH 2023](https://github.com/anujkkarmakar/lawsy-website/assets/80219364/490ee6cc-cc64-49d9-bbae-76f05037c84a)
 
->>>>>>> 8c5889d8d63be918a54c44103ffbf6607c4a1d27
 ### Architecture of the website
 
 ##### How data is send to the server:
