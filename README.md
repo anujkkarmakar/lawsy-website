@@ -1,8 +1,15 @@
 # Lawsy: Lawful Fun in Every Run
 ## Smart India Hackathon 2023
-### Disclaimer
-> This project is developed as part of a solution to Smart India Hackathon, a nationwide initiative to provide students with a platform to solve some of the pressing problems faced by our country. The project is intended for educational and demonstration purposes only and does not represent any official endorsement or guarantee from the organizers, sponsors, or partners of the hackathon. The project is open source and licensed under the GPL-3.0. The developers of this project are not liable for any damages or losses arising from the use or misuse of this project. Use this project at your own risk.
 
+### Steps to run the project
+
+* You must have npm installed on your system. If you don't have npm installed, you can install it from [here](https://nodejs.org/en/download).
+
+* ```npm install``` to install all the required packages.
+
+* On terminal, execute `npm run start` and it will open the website at  `http://localhost:port/`
+
+* Congratulations! The website is successfully running.
 ### Teaser
 https://github.com/anujkkarmakar/lawsy-website/assets/80219364/bbee9a3f-b5a3-41c7-a268-e19aaadccdb8
 
@@ -24,16 +31,6 @@ With the advancement of technology at a breathtaking speed, India desperately ne
 </li>
 </ul>
 
-### Steps to run the project
-
-* You must have npm installed on your system. If you don't have npm installed, you can install it from [here](https://nodejs.org/en/download).
-
-* The firebase_config credentials and AWS API Gateway credentials are ignored by Git to maintain confidentiality.
-
-* On terminal, execute `npm run start` and it will open the website at  `http://localhost:port/`
-
-* Congratulations! The website is successfully running.
-
 ### Architecture of the website
 
 ##### How data is send to the server:
@@ -43,3 +40,6 @@ AWS RDS ----> AWS Lambda ---> API Gateway --> Website
 
 #### Website Testing Resource
 You find the GitHub repository link for the testing of website [here](https://github.com/anujkkarmakar/lawsy-website-test).
+
+### Disclaimer
+> This project is developed as part of a solution to Smart India Hackathon, a nationwide initiative to provide students with a platform to solve some of the pressing problems faced by our country. The project is intended for educational and demonstration purposes only and does not represent any official endorsement or guarantee from the organizers, sponsors, or partners of the hackathon. The project is open source and licensed under the GPL-3.0. The developers of this project are not liable for any damages or losses arising from the use or misuse of this project. Use this project at your own risk.
