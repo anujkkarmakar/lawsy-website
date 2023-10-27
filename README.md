@@ -1,5 +1,17 @@
 # Lawsy: Lawful Fun in Every Run
-## Smart India Hackathon 2023
+
+- [Lawsy: Lawful Fun in Every Run](#lawsy-lawful-fun-in-every-run)
+    - [Steps to run the project](#steps-to-run-the-project)
+    - [Teaser](#teaser)
+    - [Problem](#problem)
+    - [Solution](#solution)
+    - [Use Case Diagram](#use-case-diagram)
+    - [Architecture of the website](#architecture-of-the-website)
+        - [How data is send to the server:](#how-data-is-send-to-the-server)
+        - [How response is received from the server:](#how-response-is-received-from-the-server)
+      - [Website Testing Resource](#website-testing-resource)
+    - [Disclaimer](#disclaimer)
+
 
 ### Steps to run the project
 
@@ -29,7 +41,19 @@ With the advancement of technology at a breathtaking speed, India desperately ne
 <li>
 <strong>Forums:</strong> Post your questions and engage in discussions with your peers, or seek expert advice on your questions by requesting expert help. Additional option to create a query report from your question and send to concerned law and order government body or to NGOs registered on our platform. Large Language Model (LLM/Generative AI) based automatic answer bot which will suggest answers to your questions immediately.
 </li>
-</ul>
+</ul>- [Lawsy: Lawful Fun in Every Run](#lawsy-lawful-fun-in-every-run)
+  - [Smart India Hackathon 2023](#smart-india-hackathon-2023)
+    - [Steps to run the project](#steps-to-run-the-project)
+    - [Teaser](#teaser)
+    - [Problem](#problem)
+    - [Solution](#solution)
+    - [Use Case Diagram](#use-case-diagram)
+    - [Architecture of the website](#architecture-of-the-website)
+        - [How data is send to the server:](#how-data-is-send-to-the-server)
+        - [How response is received from the server:](#how-response-is-received-from-the-server)
+      - [Website Testing Resource](#website-testing-resource)
+    - [Disclaimer](#disclaimer)
+
 
 ### Use Case Diagram
 ![USE CASE DIAGRAM SIH 2023](https://github.com/anujkkarmakar/lawsy-website/assets/80219364/490ee6cc-cc64-49d9-bbae-76f05037c84a)
