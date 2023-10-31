@@ -5,36 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register Example</title>
+  <link rel="shortcut icon" href="/images/lawsy-logo.ico" type="image/x-icon">
   <!-- Import Tailwind CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
   <!-- Import custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container mx-auto p-4">
+  <div class="container p-4 mx-auto">
     <h1 class="text-4xl font-bold text-center">Register Example</h1>
     <div class="flex items-center justify-center mt-8">
       <!-- Register form -->
       <form id="register-form" class="space-y-6">
         <div class="space-y-2">
           <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-          <input id="email" name="email" type="email" required class="input w-full">
+          <input id="email" name="email" type="email" required class="w-full input">
         </div>
         <div class="space-y-2">
           <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
-          <input id="password" name="password" type="password" required class="input w-full">
+          <input id="password" name="password" type="password" required class="w-full input">
         </div>
         <div class="space-y-2">
           <label for="confirm-password" class="block text-sm font-medium text-gray-700">Confirm Password</label>
-          <input id="confirm-password" name="confirm-password" type="password" required class="input w-full">
+          <input id="confirm-password" name="confirm-password" type="password" required class="w-full input">
         </div>
         <div>
-          <button type="submit" id="register-button" class="button w-full">Register</button>
+          <button type="submit" id="register-button" class="w-full button">Register</button>
         </div>
       </form>
     </div>
     <!-- Output -->
-    <div id="output" class="text-center text-2xl font-medium text-gray-900 mt-8"></div>
+    <div id="output" class="mt-8 text-2xl font-medium text-center text-gray-900"></div>
   </div>
 
   <div>

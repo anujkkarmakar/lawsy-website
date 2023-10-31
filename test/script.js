@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -31,7 +31,7 @@ console.log(app)
 
 
 // Get the auth service
-const auth = getAuth();
+export const auth = getAuth();
 
 // Get the form elements
 const registerForm = document.getElementById("register-form");
@@ -65,6 +65,11 @@ registerButton.addEventListener("click", (event) => {
                 const user = userCredential.user;
                 console.log(user)
                 output.textContent = `User ${user.email} registered successfully.`;
+                sendEmailVerification(user)
+                .then(() => {
+                    // Email verification sent
+                    alert("Email Verification Sent. Please verfiy and then login back");
+                });
             })
             .catch((error) => {
                 // User creation failed
@@ -87,8 +92,15 @@ signInButton.addEventListener("click", (event) => {
     signInWithEmailAndPassword(auth, email, password) // Sign in with Firebase
         .then((userCredential) => { // If successful
             var user = userCredential.user; // Get the user object
-            alert("Welcome " + user.email); // Show a welcome message
-            // Do something else with the user object
+            auth.onAuthStateChanged(firebaseUser => {
+                if(firebaseUser) {
+                    if(firebaseUser.emailVerified) {
+                        window.location.href = "/test/dashboard.html"; // Redirect to another webpage
+                    } else {
+                        alert("Please verify your email before proceeding.");
+                    }
+                }
+            });
         })
         .catch((error) => { // If failed
             var errorCode = error.code; // Get the error code
@@ -97,7 +109,6 @@ signInButton.addEventListener("click", (event) => {
             // Do something else with the error object
         });
 });
-
 
 // Sign in with Google
 // googleSignInButton.addEventListener("click", function (event) {
