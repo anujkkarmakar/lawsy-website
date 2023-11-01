@@ -5,69 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="/test/login.css">
     <link rel="shortcut icon" href="/images/lawsy-logo.ico" type="image/x-icon">
-    <style>
-        body {
-            background-color: #F0F0F0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            width: 300px;
-            padding: 16px;
-            background-color: white;
-            border-radius: 10px;
-            margin: 0 auto;
-            margin-top: 100px;
-            box-shadow: 8px 8px 50px #000,
-                -8px -8px 50px #FFF;
-        }
-
-        input[type=email],
-        input[type=password] {
-            width: calc(100% - 30px);
-            padding: 15px;
-            margin: 5px 0 22px 0;
-            display: inline-block;
-            border: none;
-            background-color: #f1f1f1;
-            border-radius: 10px;
-            box-shadow: inset 2px 2px 5px #babecc,
-                inset -5px -5px 10px #ffffff73;
-        }
-
-        button {
-            background-color: #0000FF;
-            color: white;
-            padding: 15px 20px;
-            margin: 8px 0;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            opacity: 0.9;
-            border-radius: 50px;
-            /* Rounded button */
-        }
-
-        button:hover {
-            opacity: 1;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <label for="email"><b>Email-id</b></label>
-        <input type="email" placeholder="Enter your e-mail" name="email" id="email" required>
-
-        <label for="password"><b>Password</b></label>
-        <input type="password" id="password" name="password" placeholder="Enter your password">
-
-        <button id="login" type="submit">Login</button>
+    <section>
+        <form>
+            <h1>Login</h1>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" id="email" required>
+                <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" id="password" name="password" required>
+                <label for="">Password</label>
+            </div>
+            <div class="forget">
+                <label for=""><input type="checkbox">Remember Me</label>
+                <a href="#">Forget Password</a>
+            </div>
+            <button type="submit" id="login-button">Sign In</button>
+            <div class="register">
+                <p>Don't have a account <a href="#">Register</a></p>
+            </div>
         </form>
-    </div>
-    <!-- Connect the front-end to the back-end -->
-    <script type="module" src="/test/login_script.js"></script>
+    </section>
+
+    <script type="module" src="/test/login.js"></script>
 </body>
 
 </html>

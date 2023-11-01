@@ -2,7 +2,6 @@
  * This script helps to connect the front-end of Lawsy website to the backend to authenticate login using Firebase
  */
 
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
 
 import { getAuth, signInWithEmailAndPassword, sendEmailVerification } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
@@ -20,16 +19,17 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
 const auth = getAuth();
 
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
-const loginButton = docuemnt.getElementById("login");
+const loginButton = docuemnt.getElementById("login-button");
 
 // Add an event listener to the form login
 loginButton.addEventListener("click", (event) => {
     event.preventDefault();
+
+    console.log(auth)
 
     const email = emailInput.value;
     const password = passwordInput.value;
