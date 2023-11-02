@@ -116,7 +116,6 @@ document.onload = function () {
             });
     });
 }
-);
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
