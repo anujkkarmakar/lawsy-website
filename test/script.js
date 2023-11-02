@@ -116,42 +116,7 @@ document.onload = function () {
             });
     });
 }
-
-// Sign in with Google
-// googleSignInButton.addEventListener("click", function (event) {
-//     event.preventDefault(); // Prevent form submission
-//     var provider = new firebase.auth.GoogleAuthProvider(); // Create a Google provider object
-//     auth.signInWithPopup(provider) // Sign in with Firebase using a popup window
-//         .then(function (userCredential) { // If successful
-//             var user = userCredential.user; // Get the user object
-//             alert("Welcome " + user.displayName); // Show a welcome message
-//             // Do something else with the user object
-//         })
-//         .catch(function (error) { // If failed
-//             var errorCode = error.code; // Get the error code
-//             var errorMessage = error.message; // Get the error message
-//             alert("Error: " + errorCode + " - " + errorMessage); // Show an error message
-//             // Do something else with the error object
-//         });
-// });
-
-// // Sign in with Facebook
-// facebookSignInButton.addEventListener("click", function (event) {
-//     event.preventDefault(); // Prevent form submission
-//     var provider = new firebase.auth.FacebookAuthProvider(); // Create a Facebook provider object
-//     auth.signInWithPopup(provider) // Sign in with Firebase using a popup window
-//         .then(function (userCredential) { // If successful
-//             var user = userCredential.user; // Get the user object
-//             alert("Welcome " + user.displayName); // Show a welcome message
-//             // Do something else with the user object
-//         })
-//         .catch(function (error) { // If failed
-//             var errorCode = error.code; // Get the error code
-//             var errorMessage = error.message; // Get the error message
-//             alert("Error: " + errorCode + " - " + errorMessage); // Show an error message
-//             // Do something else with the error object
-//         });
-// });
+);
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
