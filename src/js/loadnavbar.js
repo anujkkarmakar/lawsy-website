@@ -1,22 +1,21 @@
 document.getElementById("nav-bar").innerHTML = `
 <div class="navbar-custom" id="navbar-custom">
             <div class="navbar-custom-left-item">
-                <a class="navbar-brand" href="#"><img src="/images/lawsy-logo.png" height="100px" alt="lawsy logo"></a>
-                <!-- <a class="navbar-brand" href="#"><img src="/images/logo.png" width="100px"  alt="lawsy text logo"></a> -->
+                <a href="#"><img src="/images/lawsy-logo.png" style="height: 100px; width: auto;" alt="lawsy logo"></a>
             </div>
             <div class="navbar-custom-center-item">
                 <ul>
                     <li>
-                        Home
+                        <a href="/src/html/index.html">Home</a>
                     </li>
                     <li>
-                        FAQs
+                        <a href="/src/html/index.html#faqs">FAQs</a>
                     </li>
                     <li>
-                        About Us
+                        <a href="/src/html/team.html">About Us</a>
                     </li>
                     <li>
-                        Get in touch
+                        <a href="/src/html/contact.html">Get in touch</a>
                     </li>
                 </ul>
             </div>

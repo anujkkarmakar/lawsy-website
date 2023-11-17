@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: purple;
+    background-color: purple !important;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
 }
 
-.navbar-custom ul li {    margin-top: 20px;
+.navbar-custom ul li {    
+    margin-top: 20px;
     padding: 10px;
 }
 
@@ -23,6 +25,11 @@
     color: white;
     /* background-color: red; */
     justify-content: center;
+}
+
+.navbar-custom-center-item ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-custom-right-item ul {
@@ -53,8 +60,8 @@
 .signup-button {
     /* Initial Styles */
     color: black;
-    background-color: #FFC107;
-    border: 1px solid #FFC107;
+    background-color: #FFC107 !important;
+    border: 1px solid #FFC107 !important;
     padding: 5px 10px;
     border-radius: 6px;
     cursor: pointer;
@@ -63,7 +70,7 @@
     transition: background-color 0.3s, color 0.3s;
   
     &:hover {
-      background-color: #ffd700;
+      background-color: #ffd700 !important;
     }
   }
   
