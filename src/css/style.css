@@ -35,34 +35,8 @@ body {
 
 /* Navigation bar  */
 #nav-bar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.navbar {
-  background-image: linear-gradient(
-    to right,
-    rgb(172, 172, 254),
-    rgb(20, 20, 248)
-  );
-  padding: 0 !important;
-}
-
-.navbar-brand img {
-  height: 60px;
-  padding-left: 20px;
-}
-
-.navbar-nav li {
-  padding: 0 10px;
-}
-
-.navbar-nav li a {
-  color: #fff !important;
-  font-weight: 500;
-  float: right;
-  text-align: left;
+  width: 100%;
+  position: fixed;
 }
 
 .fa-solid {
