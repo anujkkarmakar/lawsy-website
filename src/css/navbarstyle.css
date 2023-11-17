@@ -1,73 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-custom {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
     background-color: purple !important;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    font-family: Arial, Helvetica, sans-serif !important;
+    align-items: center !important;
 }
 
 .navbar-custom ul li {    
-    margin-top: 20px;
-    padding: 10px;
+    margin-top: 20px !important;
+    padding: 10px !important;
 }
 
 .navbar-custom-left-item {
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 
 .navbar-custom-center-item ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 10px;
-    font-size: 20px;
-    color: white;
-    /* background-color: red; */
-    justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+    list-style: none !important;
+    gap: 10px !important;
+    font-size: 20px !important;
+    color: white !important;
+    justify-content: center !important;
 }
 
 .navbar-custom-center-item ul li a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
 
 .navbar-custom-right-item ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 10px;
-    justify-content: end;
-    margin-right: 20px;
+    display: flex !important;
+    flex-direction: row !important;
+    list-style: none !important;
+    gap: 10px !important;
+    justify-content: end !important;
+    margin-right: 20px !important;
 }
 
 .login-button {
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 6px;
-    font-size: 20px;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    color: white !important;
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 6px !important;
+    font-size: 20px !important;
+    padding: 5px 10px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s, color 0.3s !important;
   
     &:hover {
-      background-color: white;
-      color: black;
+      background-color: white !important;
+      color: black !important;
     }
 }
 
 .signup-button {
-    /* Initial Styles */
-    color: black;
+    color: black !important;
     background-color: #FFC107 !important;
     border: 1px solid #FFC107 !important;
-    padding: 5px 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 20px;
-    text-transform: uppercase;
-    transition: background-color 0.3s, color 0.3s;
+    padding: 5px 10px !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    transition: background-color 0.3s, color 0.3s !important;
   
     &:hover {
       background-color: #ffd700 !important;

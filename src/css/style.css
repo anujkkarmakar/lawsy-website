@@ -2,24 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(
-    to right,
-    rgb(172, 172, 254),
-    rgb(20, 20, 248)
-  );
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: white;
-  border-radius: 10px;
-}
-
 * {
   margin: 0;
   padding: 0;
