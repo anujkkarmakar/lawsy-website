@@ -15,7 +15,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Navigation bar  */
+/* Navigation bar 
 #nav-bar {
   width: 100%;
   position: fixed;
@@ -28,9 +28,14 @@ body {
 
 .navbar-toggler {
   outline: none !important;
-}
+} */
 
 /* Banner  */
+
+#nav-bar {
+  top: 0;
+  position: sticky;
+}
 
 #banner {
   background-image: linear-gradient(
@@ -41,8 +46,7 @@ body {
   color: #fff;
 }
 
-section:nth-of-type(2) div {
-  /* Your styles here */
+section:nth-of-type(2) div:nth-child(2) {
   margin-top: 100px;
 }
 
