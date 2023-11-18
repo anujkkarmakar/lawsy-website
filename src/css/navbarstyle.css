@@ -13,11 +13,11 @@ html {
     justify-content: space-between !important;
     background-color: purple !important;
     font-family: Arial, Helvetica, sans-serif !important;
-    align-items: center !important;
+    align-items: center;
 }
 
 .navbar-custom ul li {    
-    margin-top: 20px !important;
+    margin-top: 0px !important;
     padding: 10px !important;
 }
 
